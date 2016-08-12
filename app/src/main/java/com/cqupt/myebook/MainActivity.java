@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         try {
-            bezierPageFactory.openBook("/sdcard/test.txt");
+            bezierPageFactory.openBook( "/sdcard/test.txt");
             bezierPageFactory.Draw(mCurPageCanvas);
         } catch (IOException e) {
             e.printStackTrace();
